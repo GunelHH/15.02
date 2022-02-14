@@ -1,0 +1,32 @@
+﻿using System;
+
+namespace _15._02
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int total = sum();
+            Console.WriteLine(sum());
+        }
+        public static int sum()
+        {
+            int[] arr = { 70, 65, 100, 90, 30, 95, 40 };
+            int Sum = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Sum+=arr[i];
+            }
+            return Sum;
+        }
+        public static int sum(int Sum,  int students)
+        {
+            int[] arr = { 70, 65, 100, 90, 30, 95, 40 };
+            students = arr.Length;
+            int average = 0;
+            
+            return average=Sum/arr.Length;
+        }
+        
+    }
+}
